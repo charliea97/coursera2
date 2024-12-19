@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: aliceblue;
+}
+
+.navbar-toggle {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar-toggle .icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+#collapsable-nav {
+    background-color: black;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+}
+
+.icon-bar {
+    color: gray;
+}
+
+li {
+    text-align: center;
+    color: aliceblue;
+}
+
+li a {
+    color: aliceblue;
+}
+
+li a:hover {
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+nav {
+    background-color: gray;
+}
+
+/* .container-fluid {
+    background-color: black;
+} */
+
+#chicken, #beef, #sushi {
+    background-color: rgb(63, 63, 63);
+    color: aliceblue;
+}
+
+#chicken p, #beef p, #sushi p {
+    padding: 20px;
+} 
